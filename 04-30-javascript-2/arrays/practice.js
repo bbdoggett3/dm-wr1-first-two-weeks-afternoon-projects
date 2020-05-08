@@ -213,7 +213,21 @@ function removeItem(myGroceryList, item) {
 return myGroceryList;
 }
 
-removeItem(myGroceryList, "chips");
+// removeItem(myGroceryList, "chips");
+
+//Found this online and would like to give it a shot and work through it to help me solve this problem
+// function addItem(array, item) {
+//   var inList = array.some(function(x) {
+//     return x === item;
+//   });
+//   if (inList === true) {
+//     return array;
+//   }
+//   if (inList === false) {
+//     array.push(item);
+//     return array;
+//   }
+// }
 
 
 
@@ -225,7 +239,13 @@ removeItem(myGroceryList, "chips");
 */
 
 //Code Here
-
+function maker() {
+  let newarr = [];
+  for(let i=0; i < 215; i++) {
+    newarr[i] = i + 1;
+  }
+  return newarr; 
+}
 
 
 ////////// PROBLEM 10 //////////
@@ -241,6 +261,16 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 */
   
 //Code Here
+function addTen(numbers) {
+  let newArr = [];
+
+  for(let i =0; i < numbers.length; i++) {
+    console.log(i);
+    newArr[i] += 10;
+  }
+  console.log(newArr)
+  return newArr;
+}
 
 
 
