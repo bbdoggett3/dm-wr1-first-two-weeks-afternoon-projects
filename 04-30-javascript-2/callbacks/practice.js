@@ -126,6 +126,13 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
+function uniq(arr, cb) {
+  for(let i =0; i < arr.length; i++) {
+    if(arr[i] === i) {
+      
+    }
+  }
+}
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
